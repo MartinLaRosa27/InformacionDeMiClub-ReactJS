@@ -1,0 +1,113 @@
+* {
+  text-transform: uppercase !important;
+}
+
+header {
+  display: flex;
+  height: 250px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-style: oblique;
+  word-spacing: 3.5px;
+  background: url(./img/header_bg.png);
+  background-size: cover;
+  -webkit-text-stroke: 1.5px white;
+  color: transparent;
+  border: 1px solid black;
+  border-width: 0px 0px 1.5px;
+}
+
+.buscador {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #e6e6e6;
+}
+
+.buscador button {
+  margin-top: 20px;
+  background-color: black;
+  border: whitesmoke;
+}
+
+.buscador button:hover {
+  margin-top: 20px;
+  background-color: #b9b9b9;
+  border: black;
+}
+
+.mostrar-deportes .contenido {
+  display: flex;
+  margin-top: 50px;
+}
+
+.mostrar-deportes img {
+  width: 200px;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.mostrar-deportes .alert {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.partidos {
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+.partidos .card {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  overflow: hidden;
+}
+
+.partidos .card-img-top {
+  width: 250px;
+  height: 150px;
+}
+
+.partidos .table {
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .partidos .card h5 {
+    font-size: 1.2rem;
+  }
+
+  .partidos .card p {
+    font-size: 1rem;
+  }
+
+  .partidos .card-img-top {
+    width: 200px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .partidos .card h5 {
+    font-size: 1rem;
+  }
+
+  .partidos .card p {
+    font-size: 0.8rem;
+  }
+
+  .partidos .card-img-top {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+footer {
+  height: 150px;
+  background-color: #b9b9b9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
